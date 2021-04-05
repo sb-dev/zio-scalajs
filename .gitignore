@@ -1,0 +1,10 @@
+.DS_Store
+.bloop
+.bsp
+.idea
+.metals
+.vscode
+target
+project/metals.sbt
+node_modules
+build

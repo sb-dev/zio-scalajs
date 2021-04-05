@@ -1,0 +1,21 @@
+{
+  "name": "zioscalajs",
+  "version": "0.0.1",
+  "description": "Simple ZIO ScalaJS Skeleton",
+  "scripts": {
+    "build": "./sbt fullLinkJS && NODE_ENV=production webpack --mode production",
+    "build:dev": "./sbt fastLinkJS",
+    "test": "./sbt test",
+    "start": "webpack serve --mode development --hot --open --disable-host-check --host=\"0.0.0.0\""
+  },
+  "author": "Samir Benzenine",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.1.0",
+    "html-webpack-plugin": "^4.5.1",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
